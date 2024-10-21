@@ -1,6 +1,7 @@
 services:
   - type: web
     name: php-static-site
-    env: static
-    static_publish_path: . 
+    env: php
+    buildCommand: ""  # No build step needed
     startCommand: "php -S 0.0.0.0:10000 -t ."
+    autoDeploy: true  # Enable auto-deploy on push
