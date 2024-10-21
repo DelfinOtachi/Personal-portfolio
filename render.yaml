@@ -1,5 +1,6 @@
 services:
   - type: web
     name: php-static-site
-    env: static
-    static_publish_path: /
+    env: php
+    buildCommand: ""  # No build step for a static PHP site
+    startCommand: ""  # Render will use PHP's built-in server to serve your PHP files
