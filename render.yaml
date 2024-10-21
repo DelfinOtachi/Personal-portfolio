@@ -3,4 +3,4 @@ services:
     name: php-static-site
     env: php
     buildCommand: ""  # No build step for a static PHP site
-    startCommand: ""  # Render will use PHP's built-in server to serve your PHP files
+    startCommand: "php -S 0.0.0.0:10000 -t ."
