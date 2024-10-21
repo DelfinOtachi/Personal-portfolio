@@ -541,7 +541,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-3">
         <div class="container">
             <a class="navbar-brand" href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -575,7 +575,7 @@
 
     <!-- Home Section -->
    <!-- Home Section -->
-<section id="home" class="home text-center" data-aos="zoom-in" style="position: relative;">
+<section id="home" class="home text-center bg-dark" data-aos="zoom-in" style="position: relative; top:0; hight:100">
     <div class="dark-overlay"></div>
     <div class="container position-relative ">
         <h1><span class="text-primary">Hi</span> I am Delfin Otachi</h1>
@@ -665,9 +665,12 @@
                 <!-- jQuery -->
                 <div class="col-lg-3 col-md-4 text-center mb-4">
                     <div class="icon-box p-3" style="background: #1b1b1b; border-radius: 8px;">
-                        <img src="https://cdn.worldvectorlogo.com/logos/jquery-2.svg" style="width: 80px; height: 80px;"
-                            alt="jQuery">
-                        <h3 style="color: #fff; font-size: 1.2rem; margin-top: 15px;">jQuery</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80" height="80">
+    <path fill="none" d="M0 0h24v24H0z"/>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-2c0-1.1-.9-2-2-2H8v-1c0-1.1.9-2 2-2h2V7h-1c-1.1 0-2-.9-2-2V4.41c2.93-.89 6.12.26 7.79 2.61C19.87 10.33 19.43 15.68 17.9 17.39z" fill="#fff"/>
+</svg>
+
+                        <h2 style="color: #fff; font-size: 1.2rem; margin-top: 15px;">API Integration</h2>
                     </div>
                 </div>
 
@@ -692,9 +695,9 @@
                 <!-- CSS -->
                 <div class="col-lg-3 col-md-4 text-center mb-4">
                     <div class="icon-box p-3" style="background: #1b1b1b; border-radius: 8px;">
-                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg"
+                        <img src="img/mpesa.png"
                             style="width: 80px; height: 80px;" alt="CSS">
-                        <h3 style="color: #fff; font-size: 1.2rem; margin-top: 15px;">CSS</h3>
+                        <h2 style="color: #fff; font-size: 1.2rem; margin-top: 15px;">M-PESA INTEGRATION</h2>
                     </div>
                 </div>
 
@@ -749,7 +752,7 @@
 
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="section" style="color:white; background-color:#444444;">
+    <section id="portfolio" class="section bg-dark" style="color:white; ">
         <div class="container">
             <h2 class="text-center"><span class="text-primary">My</span> Works</h2>
             <hr class="bg-white">
@@ -769,7 +772,7 @@
                             <i class="bi bi-github"></i> GitHub Repository
                         </a>
                         <!-- Live site button with margin -->
-                        <a href="#" class="btn btn-warning ms-2 text-light text-light">
+                        <a href="http://kaysretail.atwebpages.com/" class="btn btn-warning ms-2 text-light text-light">
                             <i class='bx bx-show text-light'></i> Live Site
                         </a>
                     </div>
@@ -782,7 +785,7 @@
                         <a href="#" class="btn btn-primary">
                             <i class="bi bi-github"></i> GitHub Repository
                         </a>
-                        <a href="https://glowhavenke.000webhostapp.com" class="btn btn-warning ms-2 text-light">
+                        <a href="http://glowhaven.atwebpages.com/" class="btn btn-warning ms-2 text-light">
                             <i class='bx bx-show text-light'></i> Live Site
                         </a>
                     </div>
